@@ -8,6 +8,7 @@ import plotly.express as px
 import plotly.io as pio
 app = Flask(__name__)
 
+
 # Load the pre-trained model and scaler
 model = joblib.load('model/knn_model.pkl')
 scaler = joblib.load('model/scaler.pkl')
